@@ -30,6 +30,6 @@ urlpatterns = [
     # path('', home_view, name='home'),
     # path('current_time/', time_view, name='time'),
     # path('workdir/', workdir_view, name='workdir'),
-    path('app/', include('app.urls')),
+    path('', include('app.urls')),
     path('admin/', admin.site.urls),
 ]
